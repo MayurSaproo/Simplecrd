@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 5rem;
+
+}
+
+.grid{
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    min-height: 33rem;
+    max-width: 22rem;
+    position: absolute;
+
+}
+img{
+    border-radius: 2rem;
+    max-width: 22rem;
+    max-height: 33rem;
+    position: relative;
+}
+button{
+    margin-left: 9rem;
+    border-radius: 1rem;
+    background-color: bisque;
+}
+
+@media only screen and (orientation:landscape){
+    body{
+        background-color: azure;
+    }
+    .grid{
+        background-color: bisque;
+    }
+    button{
+        background-color: azure;
+    }
+    
+}
